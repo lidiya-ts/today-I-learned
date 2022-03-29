@@ -10,3 +10,8 @@ git init  creates git repository
 git add filename  adds a new file to git
 git status  shows the status of folders and files in git repository
 git log  used to check commits
+git branch branchname  створення гілки
+git checkout branchname  перехід на гілку
+git merge branchname  приєднати гілку
+git checkout -b branchname  створює нову гілку і виходить на неї
+git rebase branchname  переносять зміни у вказану гілку лінійно
